@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="90" fill="#1C1C1E"/>
+
+  <!-- Enso circle (open at top — zen brush stroke) -->
+  <path d="M 256 58 A 198 198 0 1 1 230 60"
+        fill="none" stroke="#C9A84C" stroke-width="7"
+        stroke-linecap="round" opacity="0.45"/>
+
+  <!-- Shell base (dark rim) -->
+  <ellipse cx="256" cy="348" rx="162" ry="42" fill="#2E3B20"/>
+
+  <!-- Shell dome -->
+  <ellipse cx="256" cy="295" rx="155" ry="108" fill="#3D5229"/>
+
+  <!-- Shell highlight (lighter dome centre) -->
+  <ellipse cx="248" cy="278" rx="100" ry="72" fill="#4A6332"/>
+
+  <!-- Shell scute pattern -->
+  <!-- Centre scute -->
+  <ellipse cx="256" cy="290" rx="46" ry="56" fill="none" stroke="#2E3B20" stroke-width="2.5"/>
+  <!-- Upper scute -->
+  <ellipse cx="256" cy="246" rx="36" ry="30" fill="none" stroke="#2E3B20" stroke-width="2"/>
+  <!-- Left scute -->
+  <ellipse cx="190" cy="305" rx="42" ry="38" fill="none" stroke="#2E3B20" stroke-width="2"/>
+  <!-- Right scute -->
+  <ellipse cx="322" cy="305" rx="42" ry="38" fill="none" stroke="#2E3B20" stroke-width="2"/>
+  <!-- Lower-left scute -->
+  <ellipse cx="200" cy="348" rx="36" ry="22" fill="none" stroke="#2E3B20" stroke-width="1.5"/>
+  <!-- Lower-right scute -->
+  <ellipse cx="312" cy="348" rx="36" ry="22" fill="none" stroke="#2E3B20" stroke-width="1.5"/>
+
+  <!-- Neck -->
+  <path d="M 240 218 C 236 196 242 170 256 148 C 270 170 276 196 272 218 Z"
+        fill="#7A9B52"/>
+
+  <!-- Head -->
+  <ellipse cx="256" cy="134" rx="34" ry="30" fill="#7A9B52"/>
+
+  <!-- Head shading (top of head slightly darker) -->
+  <ellipse cx="256" cy="122" rx="28" ry="16" fill="#6A8A45"/>
+
+  <!-- Eyes -->
+  <circle cx="243" cy="127" r="6" fill="#1C1C1E"/>
+  <circle cx="269" cy="127" r="6" fill="#1C1C1E"/>
+  <!-- Eye shine -->
+  <circle cx="245" cy="125" r="2" fill="white" opacity="0.9"/>
+  <circle cx="271" cy="125" r="2" fill="white" opacity="0.9"/>
+
+  <!-- Wise Oogway mustache / whiskers (gold, long and flowing) -->
+  <path d="M 237 150 C 222 155 204 153 188 147"
+        fill="none" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 237 155 C 220 162 205 163 192 158"
+        fill="none" stroke="#C9A84C" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 275 150 C 290 155 308 153 324 147"
+        fill="none" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 275 155 C 292 162 307 163 320 158"
+        fill="none" stroke="#C9A84C" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Slight smile -->
+  <path d="M 244 142 Q 256 150 268 142"
+        fill="none" stroke="#4A6332" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Front flippers in meditation mudra -->
+  <!-- Left flipper -->
+  <ellipse cx="136" cy="340" rx="44" ry="16" fill="#6A8A45"
+           transform="rotate(15 136 340)"/>
+  <ellipse cx="118" cy="350" rx="22" ry="10" fill="#5A7A38"
+           transform="rotate(25 118 350)"/>
+  <!-- Right flipper -->
+  <ellipse cx="376" cy="340" rx="44" ry="16" fill="#6A8A45"
+           transform="rotate(-15 376 340)"/>
+  <ellipse cx="394" cy="350" rx="22" ry="10" fill="#5A7A38"
+           transform="rotate(-25 394 350)"/>
+
+  <!-- Nagi wordmark -->
+  <text x="256" y="458"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="36"
+        fill="#C9A84C"
+        text-anchor="middle"
+        letter-spacing="10">NAGI</text>
+
+</svg>
